@@ -59,4 +59,12 @@
     <name>hbase.rootdir</name>
     <value>/data/hbase/data</value>
    </property>  
+   <property>
+    <name>hbase.zookeeper.quorum</name>
+    <value>zookeeper:2181</value>
+  </property>   
+   <property>
+    <name>hbase.zookeeper.quorum</name>
+    <value>zookeeper:2181</value>
+  </property>    
 </configuration>
