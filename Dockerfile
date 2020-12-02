@@ -1,6 +1,7 @@
 FROM java:8u111-jre-alpine
 MAINTAINER "bane" <fengxiaotx@163.com>
 
+RUN mkdir -p /data/hbase
 RUN mkdir /workspace
 RUN apk update
 RUN apk upgrade
