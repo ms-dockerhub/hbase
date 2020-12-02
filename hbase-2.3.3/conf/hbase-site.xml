@@ -45,7 +45,7 @@
   </property>
   <property>
     <name>hbase.tmp.dir</name>
-    <value>/data/hbase</value>
+    <value>/data/hbase/tmp</value>
   </property>
   <property>
     <name>hbase.unsafe.stream.capability.enforce</name>
@@ -55,4 +55,8 @@
     <name>hbase.master.info.port</name>
     <value>60010</value>
   </property>
+   <property>
+    <name>hbase.rootdir</name>
+    <value>/data/hbase/data</value>
+   </property>  
 </configuration>
