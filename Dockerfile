@@ -15,7 +15,7 @@ COPY ./set-env.sh /workspace/set-env.sh
 RUN chmod 777 /workspace/start.sh
 RUN chmod 777 /workspace/set-env.sh
 
-EXPOSE 80 2181 16000 16020 60010
+EXPOSE 80 2181 16000 16020 16030 60010
 # ENTRYPOINT ["sh","-c","/workspace/hbase/bin/start-hbase.sh && tail -f /dev/null" ]
 #CMD ["/bin/sh"]
 ENTRYPOINT ["sh","-c","/workspace/set-env.sh && /workspace/start.sh && tail -f /dev/null" ]
