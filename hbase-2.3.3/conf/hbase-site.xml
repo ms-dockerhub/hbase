@@ -51,10 +51,6 @@
     <name>hbase.unsafe.stream.capability.enforce</name>
     <value>false</value>
   </property>
-  <property>
-    <name>hbase.master.info.port</name>
-    <value>60010</value>
-  </property>
    <property>
     <name>hbase.rootdir</name>
     <value>/data/hbase/data</value>
