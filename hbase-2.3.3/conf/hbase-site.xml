@@ -44,6 +44,10 @@
     <value>true</value>
   </property>
   <property>
+    <name>hbase.master.info.port</name>
+    <value>16010</value>
+  </property>  
+  <property>
     <name>hbase.tmp.dir</name>
     <value>/data/hbase/tmp</value>
   </property>
