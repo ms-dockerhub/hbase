@@ -68,4 +68,17 @@
     <name>hbase.zookeeper.property.clientPort</name>
     <value>2181</value>
   </property>
+
+  <property>
+      <name>hbase.master.hostname</name>
+      <value>MASTER_HOSTNAME</value>
+    </property>
+    <property>
+      <name>hbase.master.dns.nameserver</name>
+      <value>MASTER_HOSTNAME</value>
+    </property>
+  <property>
+    <name>hbase.regionserver.dns.nameserver</name>
+    <value>MASTER_HOSTNAME</value>
+  </property>
 </configuration>
